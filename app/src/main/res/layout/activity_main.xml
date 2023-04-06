@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/kilotext"
+        android:layout_width="383dp"
+        android:layout_height="33dp"
+        android:text="Kilonuzu Giriniz:(kg)"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/boytext"
+        android:layout_width="383dp"
+        android:layout_height="33dp"
+        android:text="Boyunuzu Giriniz:(m)"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <TextView
+        android:id="@+id/bkideger"
+        android:layout_width="130dp"
+        android:layout_height="62dp"
+        android:text="BKI DEGERINIZ:"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/bkideger2"
+        android:layout_width="130dp"
+        android:layout_height="62dp"
+        android:gravity="right"
+        android:text="0"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="379dp"
+        android:layout_height="528dp"
+        app:srcCompat="@drawable/image_0x0_0"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
